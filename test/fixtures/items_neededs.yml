@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  item: MyString
+  quantity_needed: 1
+  current_status: MyString
+  avatar: MyString
+  item_category_id: 1
+  created: 2018-07-28 16:20:12
+  modified: 2018-07-28 16:20:12
+
+two:
+  item: MyString
+  quantity_needed: 1
+  current_status: MyString
+  avatar: MyString
+  item_category_id: 1
+  created: 2018-07-28 16:20:12
+  modified: 2018-07-28 16:20:12
