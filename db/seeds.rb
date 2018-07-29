@@ -15,3 +15,5 @@ item_categories = ItemCategory.create(category: 'Blood')
 item_categories = ItemCategory.create(category: 'Medical Supplies')
 item_categories = ItemCategory.create(category: 'Technology')
 item_categories = ItemCategory.create(category: 'Books')
+
+users = User.create(first_name: 'Svetlana', last_name:'Tester', email: 'tester@test.com', password:'myinsecurepassword', phone:'589385835', created:'2018-07-28', type: 'organization');
