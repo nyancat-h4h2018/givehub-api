@@ -19,7 +19,7 @@ items = ItemsNeeded.create([
   {item: 'Coats', quantity_needed: 60, current_status: 'active', item_category_id: 1, organization_id: 1, requestor_id: 1 }, 
   {item: 'Fresh Fruits', quantity_needed: 1000, current_status: 'almost full', item_category_id: 3, organization_id: 1, requestor_id: 2 }, 
   {item: 'Suits', quantity_needed: 100, current_status: 'low', item_category_id: 1, organization_id: 2, requestor_id: 2 }, 
-  {item: 'Books', quantity_needed: 100, current_status: 'almost full', item_category_id: 3, organization_id: 2, requestor_id: 2 }, 
+  {item: 'Books', quantity_needed: 100, current_status: 'almost full', item_category_id: 3, organization_id: 3, requestor_id: 2 }, 
   {item: 'Canned Goods', quantity_needed: 300, current_status: 'almost full', item_category_id: 1, organization_id: 2, requestor_id: 2 }])
 
 item_categories = ItemCategory.create([{ category: 'Clothing' }, { category: 'Food' }, { category: 'Toiletries' }, { category: 'Educational Materials' }])
