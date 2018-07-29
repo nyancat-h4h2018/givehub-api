@@ -10,12 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180729015212) do
+ActiveRecord::Schema.define(version: 20180729031600) do
 
   create_table "item_categories", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "category"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
   create_table "items_neededs", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
@@ -26,8 +24,6 @@ ActiveRecord::Schema.define(version: 20180729015212) do
     t.integer "item_category_id"
     t.datetime "created"
     t.datetime "modified"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.bigint "requestor_id", null: false
     t.index ["requestor_id"], name: "fk_rails_2774e6c6db"
   end
@@ -41,8 +37,6 @@ ActiveRecord::Schema.define(version: 20180729015212) do
     t.datetime "created"
     t.boolean "verified"
     t.string "type"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
   add_foreign_key "items_neededs", "users", column: "requestor_id"
