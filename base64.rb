@@ -1,0 +1,5 @@
+require 'base64'
+
+str = "cXVhbnRpdHkgbmVlZGVkLGl0ZW0gbmVlZGVkDTMwMCxjb2F0cw02LGNhdHMNNyxjb3dzIGEgbWlsa2luDTk4NDcsc3Bvbmdlcw02LGNhbnMgb2YgdHVuYQ04LHN0dWZmcw0yMzVkZixhYWFhYQ1oaWlpaWlpLGFzZGtmamFzbGtk"
+
+p Base64.decode64(str)
