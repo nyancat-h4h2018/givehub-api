@@ -11,5 +11,5 @@ organizations = Organization.create([ {org_name: "St. Anthony's", email: "sta@gm
 
 items = ItemsNeeded.create([{item: 'Coats', quantity_needed: 60, current_status: 'active', item_category_id: 1, organization_id: 2}, {item: 'Books', quantity_needed: 100, current_status: 'almost full', item_category_id: 3, organization_id: 2 }])
 
-item_categories = ItemCategory.create([{ category: 'Clothing' }])
+item_categories = ItemCategory.create([{ category: 'Clothing' }, {category: 'Food'}, {category: 'Educational & Office Supplies'}, {'Toiletries'}, ])
 
