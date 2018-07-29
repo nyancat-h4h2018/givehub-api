@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180729015212) do
+ActiveRecord::Schema.define(version: 20180729034506) do
 
   create_table "item_categories", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "category"
@@ -40,9 +40,9 @@ ActiveRecord::Schema.define(version: 20180729015212) do
     t.string "phone"
     t.datetime "created"
     t.boolean "verified"
-    t.string "type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "type"
   end
 
   add_foreign_key "items_neededs", "users", column: "requestor_id"
